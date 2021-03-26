@@ -40,13 +40,13 @@
 								</tr>
 							</thead>
 							<tbody>
-							<c:forEach var="item" items="${listEquipment}">
+							<c:forEach var="item" items="${listCategory}">
 								<tr>
-									<th class="col-sm-2">${item.ID }</th>
-									<th class="col-sm-3">${item.type }</th>		
+									<th class="col-sm-2">${item.id }</th>
+									<th class="col-sm-3">${item.name }</th>		
 									<th class="col-sm-3">${item.name }</th>	
-									<th class="col-sm-3">${item.status }</th>
-									<th class="col-sm-3">${item.desciption }</th>
+									<th class="col-sm-3">${item.name }</th>
+									<th class="col-sm-3">${item.name }</th>
 									<th class="col-sm-3"></th>								
 								</tr>
 							</c:forEach>

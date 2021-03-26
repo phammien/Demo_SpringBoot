@@ -14,23 +14,23 @@
 	<link href="css/datepicker3.css" rel="stylesheet">
 	<link href="css/styles.css" rel="stylesheet">
 	
-	<!--Custom Font-->
+<!-- 	Custom Font -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
 </head>
 <body>
 	<jsp:include page="_header.jsp" />	
-<%-- 	<tiles:insertAttribute name="_header" /> --%>
+	<tiles:insertAttribute name="_header" />
 
 	<jsp:include page="_menu.jsp" />	
-<!-- 	<tiles:insertAttribute name="menu" /> -->
+	<tiles:insertAttribute name="menu" />
 	
 	<div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
 		<jsp:include page="_home.jsp" />			
-	</div>	<!--/.main-->
+	</div>
 	<div>
 		<jsp:include page="_footer.jsp" />	
-<!-- 		<tiles:insertAttribute name="footer" /> -->
+		<tiles:insertAttribute name="footer" />
 	</div>
 	<script src="js/jquery-1.11.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
@@ -41,6 +41,7 @@
 	<script src="js/bootstrap-datepicker.js"></script>
 	<script src="js/custom.js"></script>
 
+<!-- <p>Miên xinh đẹp yêu Miên</p> -->
 
 </body>
 </html>

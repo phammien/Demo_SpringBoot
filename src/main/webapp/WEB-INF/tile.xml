@@ -6,8 +6,7 @@
 <tiles-definitions>
 
 	<!-- Base Define -->
-	<definition name="base.definition"
-		template="/WEB-INF/views/index.jsp">
+	<definition name="base.definition" template="/WEB-INF/views/index.jsp">
 		<put-attribute name="title" value="" />
 		<put-attribute name="header"
 			value="/WEB-INF/views/_header.jsp" />
@@ -22,7 +21,7 @@
 	<definition name="homePage" extends="base.definition">
 		<put-attribute name="title" value="Home Page" />
 		<put-attribute name="body"
-			value="/WEB-INF/views/index.jsp" />
+			value="/WEB-INF/views/_home.jsp" />
 	</definition>
 	
 </tiles-definitions>
